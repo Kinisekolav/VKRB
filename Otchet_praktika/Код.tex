@@ -1,0 +1,67 @@
+\appendix{Фрагменты исходного кода программы}
+
+\subsection*{Модуль формы документа «Соревнования»}
+\lstinputlisting[
+language=Python,
+frame=none,
+basicstyle=\ttfamily\small\linespread{1}\selectfont]
+{sorev_document.txt}
+
+\subsection*{Модуль формы документа «Результаты соревнования»}
+\lstinputlisting[
+language=Python,
+frame=none,
+basicstyle=\ttfamily\small\linespread{1}\selectfont]
+{rez_sorev.txt}
+
+\subsection*{Модуль формы документа «Заявка на присвоение разрядов»}
+\lstinputlisting[
+language=Python,
+frame=none,
+basicstyle=\ttfamily\small\linespread{1}\selectfont]
+{zayavka_razr.txt}
+
+\subsection*{Модуль формы документа «Приказ о присвоении разрядов»}
+\lstinputlisting[
+language=Python,
+frame=none,
+basicstyle=\ttfamily\small\linespread{1}\selectfont]
+{prikaz_razr.txt}
+
+\subsection*{Модуль формы отчета «Расписание занятий общее»}
+\lstinputlisting[
+language=Python,
+frame=none,
+basicstyle=\ttfamily\small\linespread{1}\selectfont]
+{raspisanie.txt}
+
+\subsection*{Модуль формы отчета «Расписание занятий группы»}
+\lstinputlisting[
+language=Python,
+frame=none,
+basicstyle=\ttfamily\small\linespread{1}\selectfont]
+{raspisanie_grupp.txt}
+
+\ifВКР{
+\newpage
+\addcontentsline{toc}{section}{На отдельных листах (CD-RW в прикрепленном конверте)}
+\noindent
+\begin{tabular}{p{5.8cm}C{4.8cm}C{4.8cm}}
+   Автор ВКР & \lhrulefill{\fill} & \fillcenter\Автор \\
+            \setarstrut{\footnotesize}
+           & \footnotesize{(подпись, дата)} & \\
+            \restorearstrut
+   Руководитель ВКР & \lhrulefill{\fill} & \fillcenter\Руководитель \\
+            \setarstrut{\footnotesize}
+           & \footnotesize{(подпись, дата)} & \\
+            \restorearstrut
+   Нормоконтроль & \lhrulefill{\fill} & \fillcenter\Нормоконтроль \\
+            \setarstrut{\footnotesize}
+           & \footnotesize{(подпись, дата)} & \\
+            \restorearstrut
+\end{tabular}
+\vskip 2cm
+\begin{center}
+\textbf{Место для диска}
+\end{center}
+}\fi
